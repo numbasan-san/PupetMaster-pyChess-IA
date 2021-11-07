@@ -37,7 +37,7 @@ def main():
     sqSelect = ()
     playerClick = [] #Conteo de los clicks por parejas.
     gameOver = False
-    playerOne = True #Si el jugador juega blancas, será True, si no, no.
+    playerOne = False #Si el jugador juega blancas, será True, si no, no.
     playerTwo = True #Igual que con playerOne, pero orientado a las negras.
     while run: #Para correr el juego.
         humanTurn = (gs.whiteToMove and playerOne) or (not gs.whiteToMove and playerTwo)
