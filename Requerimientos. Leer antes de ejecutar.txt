@@ -1,0 +1,40 @@
+
+
+-----------------------------------
+INSTRUCCIONES
+-----------------------------------
+
+1. Para regresar a realizar una jugada pulsa z.
+2. Para reiniciar el tablero pulsa r.
+
+-----------------------------------
+REQUERIMIENTOS DE USO
+-----------------------------------
+
+1. Tener el lenguaje Python instalado.
+2. Tener la librería Pygame instalada. *1
+
+-----------------------------------
+ACLARACIONES
+-----------------------------------
+*1: Para instalarlo solo deberás abrir la terminal en la ruta de la ruta del 
+programa (Pulsa el botón windows y r. luego escribe cmd para abrir la 
+terminal, después escribe cd y la ruta estando en la terminal) e ingresar 
+lo siguiente:
+
+    pip install pygame
+
+Espera a que termine la descarga y ya.
+
+----Para jugar en un bando contra la máquina o para dos jugadores----
+*: Si se quiere jugar de un bando en específico, entonces abre el archivo
+llamado "main" con el blog de notas o con algún editor de código.
+Hecho esto, busca uno de estos:
+
+    playerOne, playerTwo
+
+Si quieres jugar con blancas, cambia el valor de playerOne a True y deja el otro
+(playerTwo en este caso) en False, si quieres jugar con negras solo haz lo 
+contrario. En caso de querer jugar para dos, cambia el valor de ambas cosas 
+a True.
+Si solo quieres ver la I.A jugar entre si, solo deja ambos valores en False.
